@@ -3,5 +3,47 @@
   Date: 2019 November 8
   Section: AA / Chao Hsu Lin & Austin Jenchi
 
-  This is the styles.css file for my 
+  This is the styles.css file for my
 */
+
+@import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+h1, h2 {
+  font-family: "Short Stack", cursive;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+}
+
+body {
+  background: #FFE8BF;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
