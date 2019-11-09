@@ -21,7 +21,7 @@ app.get("/franchises", async function (req, res) {
 // shows whole franchiseInfo file
 app.get("/franchiseInfo", async function (req, res) {
   let franchiseInfo = await getJsonFile();
-  res.send(franchiseInfo);
+  res.json(franchiseInfo);
 })
 
 // shows info for a specific franchise
@@ -38,7 +38,7 @@ async function getTxtFile() {
 async function getJsonFile() {
   try {
     let contents = await fs.readFile("franchiseInfo.json", "utf-8");
-    return contents;
+    return JSON.parse(contents);
   } catch (err) {
     console.error(err);
   }
