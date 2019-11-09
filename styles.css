@@ -24,7 +24,7 @@ header {
 }
 
 body {
-  background: #FFE8BF;
+  background: #F1E5CE;
   font-family: "Nunito Sans", sans-serif;
   text-align: justify;
 }
@@ -42,8 +42,17 @@ main {
   display: flex;
 }
 
+#icon {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
 section {
   flex-direction: column;
-  padding: 10px;
+  justify-content: center;
+  padding: 20px;
   margin: 10px;
+  border-radius: 5px;
+  background: #FAF7F2;
 }
