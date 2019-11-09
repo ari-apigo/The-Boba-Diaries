@@ -28,7 +28,7 @@ app.get("/franchiseInfo", async function (req, res) {
 
 async function getTxtFile() {
   try {
-    let contents = await fs.readFile("franchises.txt", "utf-8");
+    let contents = await fs.readFile("public/franchises.txt", "utf-8");
     return contents;
   } catch (err) {
     console.error(err);
@@ -37,7 +37,7 @@ async function getTxtFile() {
 
 async function getJsonFile() {
   try {
-    let contents = await fs.readFile("franchiseInfo.json", "utf-8");
+    let contents = await fs.readFile("public/franchiseInfo.json", "utf-8");
     return JSON.parse(contents);
   } catch (err) {
     console.error(err);

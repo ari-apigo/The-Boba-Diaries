@@ -1,5 +1,8 @@
-{
-    "fruit": "Apple",
-    "size": "Large",
-    "color": "Red"
-}
+
+{ "85C": {
+    "name": "85&#176;C Bakery Cafe",
+    "specialty": "Baked goods, coffee, tea",
+    "location": "Washington, California, Texas",
+    "menu": "/menu/85C.jpg",
+    "review": ""
+  }}

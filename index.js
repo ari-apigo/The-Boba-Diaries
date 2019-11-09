@@ -8,7 +8,6 @@
 
 "use strict";
 (function() {
-  const BASE_URL = "http://localhost:8000";
   let shortnames = [];
 
   window.addEventListener("load", init);
@@ -21,9 +20,9 @@
   }
 
   function fillFranchiseList() {
-    let url = BASE_URL + "/franchises";
-    fetch(url)
+    fetch("public/franchises")
       .then(checkStatus)
+      .then(resp => resp.text())
       .then(splitLines)
       .then(splitNames)
       .then(console.log(shortnames))
