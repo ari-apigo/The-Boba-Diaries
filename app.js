@@ -13,13 +13,14 @@ const fs = require("fs").promises;
 const app = express();
 
 // shows list of franchise names and their names as used to navigate API
-app.get("/franchises", async function (req, res) {
+app.get("/franchises", async function(req, res) {
   let franchises = await getTxtFile();
+  res.set("Content-Type", "text/plain");
   res.send(franchises);
 })
 
 // shows whole franchiseInfo file
-app.get("/franchiseInfo", async function (req, res) {
+app.get("/franchiseInfo", async function(req, res) {
   let franchiseInfo = await getJsonFile();
   res.json(franchiseInfo);
 })

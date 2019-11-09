@@ -20,7 +20,7 @@
   }
 
   function fillFranchiseList() {
-    fetch("public/franchises")
+    fetch("/franchises")
       .then(checkStatus)
       .then(resp => resp.text())
       .then(splitLines)

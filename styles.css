@@ -56,3 +56,7 @@ section {
   border-radius: 5px;
   background: #FAF7F2;
 }
+
+#note {
+  font-size: 10pt;
+}
