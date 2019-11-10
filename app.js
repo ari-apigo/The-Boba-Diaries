@@ -21,11 +21,15 @@ app.get("/franchises", async function(req, res) {
 
 // shows whole franchiseInfo file
 app.get("/franchiseInfo", async function(req, res) {
-  let franchiseInfo = await getJsonFile();
-  res.json(franchiseInfo);
+  let franchiseInfoAll = await getJsonFile("franchiseInfo");
+  res.json(franchiseInfoAll);
 })
 
 // shows info for a specific franchise
+app.get("/franchiseInfo/:name", async function(req, res) {
+  let franchiseInfo = await getJsonFile("franchiseInfo/" + req.params.name);
+  res.json(franchiseInfo);
+})
 
 async function getTxtFile() {
   try {
@@ -36,9 +40,9 @@ async function getTxtFile() {
   }
 }
 
-async function getJsonFile() {
+async function getJsonFile(fileName) {
   try {
-    let contents = await fs.readFile("public/franchiseInfo.json", "utf-8");
+    let contents = await fs.readFile("public/" + fileName + ".json", "utf-8");
     return JSON.parse(contents);
   } catch (err) {
     console.error(err);

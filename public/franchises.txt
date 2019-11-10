@@ -1,9 +1,9 @@
-85&#176;C Bakery Cafe:85C
+85°C Bakery Cafe:85C
 Black Ball:blackBall
 Blank Space Cafe:blankSpace
 Boba Up:bobaUp
 Bobachine Bubble Tea:bobachine
-Bobalust Tea House:bobalust
+BobaLust Tea House:bobalust
 Braganza Tea:braganza
 Café Happy:cafeHappy
 Chatime:chatime
@@ -12,12 +12,14 @@ Decora Creamery*:decora
 Ding Tea:dingTea
 Gong Cha:gongCha
 Happy Lemon:happyLemon
+Itea Boba & Dessert:itea
 Koi Thé*:koiThe
 Kung Fu Tea:kungFuTea
 Meet Fresh:meetFresh
 Momi & Toys Crêperie*:momiToys
 Moomin Stand*:moomin
 Oasis Tea Zone:oasis
+Over The Rainbow Tea Bar:overTheRainbow
 Pochi Bubble Tea Cafe:pochi
 Pronto Caffé & Bar*:pronto
 Royaltea*:royaltea

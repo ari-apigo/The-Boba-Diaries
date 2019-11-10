@@ -19,7 +19,7 @@
       <h1>The Boba Diaries</h1>
       <nav><ul>
           <li>Home</li>
-          <li><a href="#franchiseList">Franchises</a></li>
+          <li><a href="#getStarted">Franchises</a></li>
           <!-- The following site was consulted:
                https://blog.hubspot.com/marketing/jump-link-same-page -->
           <li>The Boba API</li>
@@ -62,12 +62,16 @@
           </p>
         </article>
         <article>
-          <h2>Let's Get Started!</h2>
+          <h2 id="getStarted">Let's Get Started!</h2>
           <p>Below is an alphabetical list of bubble tea franchises. Click on a franchise name to
-            see what they have to offer! Places I've been to will include a review.
+            see what they have to offer! Places I've been to will include specific details.
           </p>
-          <p id="note">* denotes franchises only available in Japan.</p>
-          <section id="franchiseList">
+          <p class="note">* denotes franchises only available in Japan.</p>
+          <section>
+            <ul id="franchiseList"></ul>
+            <img id="back" class="hidden" src="img/bobaBack.png" alt="Back to list">
+            <div id="info">
+            </div>
           </section>
         </article>
       </section>
@@ -80,7 +84,7 @@
           various toppings. I simply use the word "boba" to refer to a drink with tapioca pearls as
           a topping.
         </p>
-        <ul>
+        <ul id="sidebarList">
           <li><strong>Also known as: </strong>Boba, pearl [milk] tea, tapioca [tea]
             <ul><li>...but never "boba tea." Please don't call it "boba tea."</li></ul></li>
           <li><strong>Origins: </strong>Taiwan, 1980</li>

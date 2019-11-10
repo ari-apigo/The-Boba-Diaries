@@ -10,7 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Short Stack", cursive;
 }
 
@@ -29,7 +29,7 @@ body {
   text-align: justify;
 }
 
-nav ul {
+nav ul, #franchiseList {
   list-style-type: none;
 }
 
@@ -38,11 +38,24 @@ nav li {
   padding: 10px;
 }
 
+#sidebarList {
+  list-style-image: url("/img/bobaresize.png");
+
+}
+
+#sidebarList li {
+  padding-left: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
 main {
   display: flex;
 }
 
-#icon {
+#icon, .logo {
   width: 200px;
   display: block;
   margin: auto;
@@ -57,6 +70,29 @@ section {
   background: #FAF7F2;
 }
 
-#note {
+.note {
   font-size: 10pt;
+}
+
+#franchiseList li {
+  padding-bottom: 5px;
+}
+
+#info {
+  text-align: center;
+}
+
+#back {
+  width: 200px;
+}
+
+.review {
+  background: #F1E5CE;
+  padding: 10px;
+  border-top: dotted 5px black;
+  border-bottom: dotted 5px black;
+}
+
+.menu {
+  width: 100%;
 }

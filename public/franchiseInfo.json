@@ -1,8 +1,335 @@
-
-{ "85C": {
-    "name": "85&#176;C Bakery Cafe",
-    "specialty": "Baked goods, coffee, tea",
+{
+  "85C": {
+    "name": "85°C Bakery Cafe",
+    "specialty": "baked goods, coffee, tea",
     "location": "Washington, California, Texas",
-    "menu": "/menu/85C.jpg",
+    "logo": "/logos/85C.png",
+    "menu": "/menus/85C.jpg",
+    "menuCredit": "Taken from their website, dated May 30, 2019.",
+    "review": "Since 85° focuses on baked goods, don't expect the drinks to be amazing. Their drinks are designed to compliment their bakery products, so sweetness is kept at a minimum. They offer two sizes and iced or hot options and often release unique flavors."
+  },
+  "blackBall": {
+    "name": "BlackBall",
+    "specialty": "Taiwanese desserts, drinks",
+    "location": "Washington, California, Texas, Australia, Canada, Indonesia, Malaysia, Singapore, Taiwan, Vietnam",
+    "logo": "/logos/blackBall.png",
+    "menu": "/menus/blackBall.jpg",
+    "menuCredit": "Found on Yelp.com page for San Gabriel, CA, location, uploaded by business owner.",
     "review": ""
-  }}
+   },
+   "blankSpace": {
+     "name": "Blank Space Cafe",
+     "specialty": "drinks, desserts",
+     "location": "Bellevue, Greenlake, Downtown Seattle",
+     "logo": "/logos/blankSpace.png",
+     "menu": "/menus/blankSpace.png",
+     "menuCredit": "Found on Pinterest.com: saved from Natasha Ulloa.",
+     "review": "Blank Space offers a very wide range of flavors, and while size and temperature are customizable, sweetness is not. As a dessert house, their drinks run very sweet to match. Desserts offered include toast boxes, bubble waffles, ice cream, and macarons."
+   },
+   "bobaUp": {
+     "name": "Boba Up",
+     "specialty": "DIY bubble tea, snacks",
+     "location": "University District Seattle",
+     "logo": "/logos/bobaUp.jpg",
+     "menu": "/menus/bobaUp.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Boba Up is the first self-serve style bubble tea franchise in the area. To accommodate for differences in sweetness preferences, most drinks are very watered down, requiring customers to personally add shots of sugar into their drink (which is quite unsettling). Toppings are buffet-style, but do not seem to be kept chilled or warmed."
+   },
+   "bobachine": {
+     "name": "Bobachine",
+     "specialty": "bubble tea, food, coffee, ice cream",
+     "location": "Downtown Seattle",
+     "logo": "/logos/bobachine.png",
+     "menu": "/menus/bobachine.jpg",
+     "menuCredit": "Found on Sirved.com.",
+     "review": "\"Fusion\" franchise, not focused on serving the standard Asian perception of bubble tea and its taste. One size, no sweetness customization, and tapioca not kept warm after cooking."
+   },
+   "bobalust": {
+     "name": "BobaLust Tea House",
+     "specialty": "drinks",
+     "location": "Tukwila, Tacoma",
+     "logo": "/logos/bobalust.png",
+     "menu": "/menus/bobalust.jpg",
+     "menuCredit": "Posted by BobaLust Graphic Designer Cindy Huynh on chuynhdesign.com.",
+     "review": "BobaLust's drink sizes are a little smaller, but they win overall for the most original flavors. Some tend to be very sweet, but their unique names and descriptions convince customers to want to come back to try them all. In addition to their regular menu, they have a secret menu that rotates every month."
+   },
+   "braganza": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "cafeHappy": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "chatime": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "coco": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "decora": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "dingTea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "gongCha": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "happyLemon": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "itea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "koiThe": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "kungFuTea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "meetFresh": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "momiToys": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "moomin": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "oasis": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "overTheRainbow": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "pochi": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "pronto": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "royaltea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "seattlesBestTea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "shakeIt": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "sharetea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "shonpy": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "tapiocaExpress": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "teaTime": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "thankYouPearl": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "theAlley": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "tokiSeven": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "trioCafe": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "tutu": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   },
+   "youngTea": {
+     "name": "",
+     "specialty": "",
+     "location": "",
+     "logo": "",
+     "menu": "",
+     "menuCredit": "",
+     "review": ""
+   }
+ }
