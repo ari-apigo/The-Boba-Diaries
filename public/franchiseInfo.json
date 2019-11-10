@@ -11,7 +11,7 @@
   "blackBall": {
     "name": "BlackBall",
     "specialty": "Taiwanese desserts, drinks",
-    "location": "Washington, California, Texas, Australia, Canada, Indonesia, Malaysia, Singapore, Taiwan, Vietnam",
+    "location": "International (N. America, Asia)",
     "logo": "/logos/blackBall.png",
     "menu": "/menus/blackBall.jpg",
     "menuCredit": "Found on Yelp.com page for San Gabriel, CA, location, uploaded by business owner.",
@@ -42,7 +42,7 @@
      "logo": "/logos/bobachine.png",
      "menu": "/menus/bobachine.jpg",
      "menuCredit": "Found on Sirved.com.",
-     "review": "\"Fusion\" franchise, not focused on serving the standard Asian perception of bubble tea and its taste. One size, no sweetness customization, and tapioca not kept warm after cooking."
+     "review": "Bobachine is a \"fusion\" franchise, not focused on serving the standard Asian perception of bubble tea and its taste. They have one size, no sweetness customization, and tapioca not kept warm after cooking."
    },
    "bobalust": {
      "name": "BobaLust Tea House",
@@ -51,97 +51,97 @@
      "logo": "/logos/bobalust.png",
      "menu": "/menus/bobalust.jpg",
      "menuCredit": "Posted by BobaLust Graphic Designer Cindy Huynh on chuynhdesign.com.",
-     "review": "BobaLust's drink sizes are a little smaller, but they win overall for the most original flavors. Some tend to be very sweet, but their unique names and descriptions convince customers to want to come back to try them all. In addition to their regular menu, they have a secret menu that rotates every month."
+     "review": "BobaLust is a modern teahouse, and their drink sizes are a little smaller, but they win overall for the most original flavors. Some tend to be very sweet, but their unique names and descriptions convince customers to want to come back to try them all. In addition to their regular menu, they have a secret menu that rotates every month."
    },
    "braganza": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
+     "name": "Braganza Tea",
+     "specialty": "tea drinks",
+     "location": "Washington, Oregon",
+     "logo": "/logos/braganza.png",
      "menu": "",
      "menuCredit": "",
-     "review": ""
+     "review": "Braganza Tea is a Pacific Northwestern born franchise. They offer one drink size and no sweetness customization, but their tea quality is decent."
    },
    "cafeHappy": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
+     "name": "Café Happy",
+     "specialty": "drinks, snacks",
+     "location": "Kirkland, University District Seattle",
+     "logo": "/logos/cafeHappy.png",
      "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "menuCredit": "Menus differ greatly between locations. The original Kirkland location offers more customization and options than the University District Seattle location.",
+     "review": "Taste-wise, Café Happy is very generic, but is still a recommendation."
    },
    "chatime": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Chatime",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/chatime.png",
+     "menu": "/menus/chatime.jpg",
+     "menuCredit": "Found on Winnie.com.",
+     "review": "Chatime is a classic teahouse. Drinks at Chatime are very customizable, and they offer a wide range of flavors and types to choose from. As the largest teahouse franchise in the world, Chatime is the safest option when unsure which to go to."
    },
    "coco": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "CoCo Fresh Tea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/coco.png",
+     "menu": "/menus/coco.jpg",
+     "menuCredit": "Found on Foursquare.com, uploaded by Karla T.",
+     "review": "CoCo is a classic teahouse, offers customizable drinks and is one of the world's largest teahouse franchises. Their default sweetness tends to be sweeter than most places."
    },
    "decora": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Decora Creamery",
+     "specialty": "desserts",
+     "location": "Odaiba Tokyo - Japan",
+     "logo": "/logos/decora.png",
+     "menu": "/menus/decora.jpg",
+     "menuCredit": "Found on Twitter, posted by iamv @imtaiki.",
+     "review": "Decora is popular for its cotton candy products, but its tapioca is of decent quality. Although more on the jelly-texture side, their tapioca does have a bit chew factor in comparison to other Japanese jelly-tapiocas."
    },
    "dingTea": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Ding Tea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/dingTea.jpg",
+     "menu": "/menus/dingTea.jpg",
+     "menuCredit": "Found on a Facebook post by Ding Tea PDX, July 28, 2018.",
+     "review": "Ding Tea is a classic teahouse and offers customization of their drinks. They are known for their golden and crystal boba, as they set them apart from other franchises."
    },
    "gongCha": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Gong Cha",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/gongCha.png",
+     "menu": "/menus/gongCha.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Gong Cha is a classic teahouse and often releases limited-time specialty drinks. They offer customization of their drinks and are very generous when it comes to toppings. They have no locations in Washington."
    },
    "happyLemon": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Happy Lemon",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/happyLemon.png",
+     "menu": "/menus/happyLemon.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Happy Lemon puts a twist on the classic teahouse and is popular for its rock salt creama topping, unique from other franchises' similar creama toppings. They offer customization of their drinks."
    },
    "itea": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
+     "name": "Itea Boba & Dessert",
+     "specialty": "drinks, desserts",
+     "location": "Las Vegas",
+     "logo": "/logos/itea.png",
      "menu": "",
      "menuCredit": "",
-     "review": ""
+     "review": "Itea's shop gives off lively, adorable vibes. They offer a wide range of flavors and bubble waffles."
    },
    "koiThe": {
-     "name": "",
-     "specialty": "",
-     "location": "",
-     "logo": "",
-     "menu": "",
-     "menuCredit": "",
-     "review": ""
+     "name": "Koi Thé",
+     "specialty": "drinks",
+     "location": "Asia, New York",
+     "logo": "/logos/koiThe.jpg",
+     "menu": "/menus/koiThe.png",
+     "menuCredit": "Taken from their website.",
+     "review": "Koi Thé is a classic teahouse, slowly growing its international presence. They offer customization of their drinks."
    },
    "kungFuTea": {
      "name": "",
