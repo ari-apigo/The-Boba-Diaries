@@ -15,7 +15,7 @@
     "logo": "/logos/blackBall.png",
     "menu": "/menus/blackBall.jpg",
     "menuCredit": "Found on Yelp.com page for San Gabriel, CA, location, uploaded by business owner.",
-    "review": ""
+    "review": "BlackBall offers unique and traditional drink flavors that complement their dessert options."
    },
    "blankSpace": {
      "name": "Blank Space Cafe",
@@ -58,8 +58,8 @@
      "specialty": "tea drinks",
      "location": "Washington, Oregon",
      "logo": "/logos/braganza.png",
-     "menu": "",
-     "menuCredit": "",
+     "menu": "/menus/braganza.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Jules H.",
      "review": "Braganza Tea is a Pacific Northwestern born franchise. They offer one drink size and no sweetness customization, but their tea quality is decent."
    },
    "cafeHappy": {
@@ -67,9 +67,9 @@
      "specialty": "drinks, snacks",
      "location": "Kirkland, University District Seattle",
      "logo": "/logos/cafeHappy.png",
-     "menu": "",
-     "menuCredit": "Menus differ greatly between locations. The original Kirkland location offers more customization and options than the University District Seattle location.",
-     "review": "Taste-wise, Café Happy is very generic, but is still a recommendation."
+     "menu": "/menu/cafeHappy.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by the business owner (Kirkland). Menus differ greatly between locations. The original Kirkland location offers more customization and options than the University District Seattle location.",
+     "review": "Taste-wise, Café Happy's drinks are very generic, but is still a recommendation."
    },
    "chatime": {
      "name": "Chatime",
@@ -130,8 +130,8 @@
      "specialty": "drinks, desserts",
      "location": "Las Vegas",
      "logo": "/logos/itea.png",
-     "menu": "",
-     "menuCredit": "",
+     "menu": "/menus/itea.jpg",
+     "menuCredit": "Found on restaurantji.com.",
      "review": "Itea's shop gives off lively, adorable vibes. They offer a wide range of flavors and bubble waffles."
    },
    "koiThe": {
