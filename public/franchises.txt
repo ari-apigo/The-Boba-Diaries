@@ -10,9 +10,9 @@ Chatime:chatime
 CoCo Fresh Tea:coco
 Decora Creamery*:decora
 Ding Tea:dingTea
-Gong Cha:gongCha
+Gong Cha*:gongCha
 Happy Lemon:happyLemon
-Itea Boba & Dessert:itea
+Itea Boba & Dessert*:itea
 Koi Thé*:koiThe
 Kung Fu Tea:kungFuTea
 Meet Fresh:meetFresh
@@ -30,7 +30,7 @@ Shonpy*:shonpy
 Tapioca Express:tapiocaExpress
 Tea Time:teaTime
 Thank You Pearl*:thankYouPearl
-The Alley:theAlley
+The Alley*:theAlley
 Toki Seven Tea*:tokiSeven
 Trio Café:trioCafe
 Tutu Crepes & Tapioca*:tutu
