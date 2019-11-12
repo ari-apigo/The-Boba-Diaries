@@ -108,6 +108,16 @@
     let review = document.createElement("p");
     review.classList.add("review");
     review.textContent = data.review;
+    infoSection.appendChild(name);
+    infoSection.appendChild(logo);
+    infoSection.appendChild(specialty);
+    infoSection.appendChild(location);
+    infoSection.appendChild(review);
+    displayMenuInfo(data);
+  }
+
+  function displayMenuInfo(data) {
+    let infoSection = document.getElementById("info");
     let menu = document.createElement("img");
     menu.classList.add("menu");
     menu.src = data.menu;
@@ -115,11 +125,6 @@
     let menuCredit = document.createElement("p");
     menuCredit.classList.add("note");
     menuCredit.textContent = data.menuCredit;
-    infoSection.appendChild(name);
-    infoSection.appendChild(logo);
-    infoSection.appendChild(specialty);
-    infoSection.appendChild(location);
-    infoSection.appendChild(review);
     infoSection.appendChild(menu);
     infoSection.appendChild(menuCredit);
   }

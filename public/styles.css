@@ -10,7 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
-h1, h2, h3 {
+h1, h2, h3, a {
   font-family: "Short Stack", cursive;
 }
 
@@ -36,6 +36,11 @@ nav ul, #franchiseList {
 nav li {
   display: inline-block;
   padding: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 #sidebarList {
