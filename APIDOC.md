@@ -84,5 +84,5 @@ N/A
 ```
 
 **Error Handling:**
-- Possible ENOENT error
-  - If passed in an invalid franchise name, returns an error with the message: "This franchise does not exist in The Boba Diaries. Please use a franchise name from the list at /franchiseInfo."
+- Possible 400 (invalid request) errors
+  - If passed in an invalid franchise name, returns an error with the message: "The franchise "[name]" does not exist in The Boba Diaries. Please use a franchise name from the list at /franchiseInfo."

@@ -28,7 +28,12 @@ app.get("/franchiseInfo", async function(req, res) {
 // shows info for a specific franchise
 app.get("/franchiseInfo/:name", async function(req, res) {
   let franchiseInfo = await getJsonFile("franchiseInfo/" + req.params.name);
-  res.json(franchiseInfo);
+  if (franchiseInfo.errno) {
+    res.status(400).send("The franchise \"" + req.params.name + "\" does not exist in The Boba " +
+    "Diaries. Please use a franchise name from the list at /franchiseInfo.");
+  } else {
+    res.json(franchiseInfo);
+  }
 })
 
 async function getTxtFile() {
@@ -36,7 +41,7 @@ async function getTxtFile() {
     let contents = await fs.readFile("public/franchises.txt", "utf-8");
     return contents;
   } catch (err) {
-    handleError(err);
+    return "An error has occurred. " + err;
   }
 }
 
@@ -45,17 +50,8 @@ async function getJsonFile(fileName) {
     let contents = await fs.readFile("public/" + fileName + ".json", "utf-8");
     return JSON.parse(contents);
   } catch (err) {
-    if (err.code === "ENOENT") {
-      return "This franchise does not exist in The Boba Diaries. Please use a franchise name " +
-      "from the list at /franchiseInfo.";
-    } else {
-      return handleError(err);
-    }
+    return err;
   }
-}
-
-function handleError(err) {
-  return "An error has occurred. " + err;
 }
 
 app.use(express.static("public"));
