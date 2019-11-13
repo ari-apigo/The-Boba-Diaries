@@ -27,7 +27,7 @@
       .then(splitLines)
       .then(splitNames)
       .then(displayFranchiseList)
-      .catch(console.error);
+      .catch(handleError);
   }
 
   /**
@@ -40,6 +40,14 @@
       throw Error("Error in request: " + response.statusText);
     }
     return response;
+  }
+
+  function handleError(error) {
+    let info = document.getElementById("info");
+    let alert = document.createElement("p");
+    alert.textContent = "Woops! Do you live in a world without boba?? " + error;
+    alert.classList.add("alert");
+    display.appendChild(alert);
   }
 
   /**

@@ -36,7 +36,7 @@ async function getTxtFile() {
     let contents = await fs.readFile("public/franchises.txt", "utf-8");
     return contents;
   } catch (err) {
-    console.error(err);
+    handleError(err);
   }
 }
 
@@ -45,8 +45,17 @@ async function getJsonFile(fileName) {
     let contents = await fs.readFile("public/" + fileName + ".json", "utf-8");
     return JSON.parse(contents);
   } catch (err) {
-    console.error(err);
+    if (err.code === "ENOENT") {
+      return "This franchise does not exist in The Boba Diaries. Please use a franchise name " +
+      "from the list at /franchiseInfo.";
+    } else {
+      return handleError(err);
+    }
   }
+}
+
+function handleError(err) {
+  return "An error has occurred. " + err;
 }
 
 app.use(express.static("public"));
