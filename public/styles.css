@@ -19,14 +19,20 @@ h2 {
 }
 
 header {
-  display: flex;
   align-items: baseline;
 }
 
+header, main {
+  display: flex;
+}
+
 body {
-  background: #F1E5CE;
   font-family: "Nunito Sans", sans-serif;
   text-align: justify;
+}
+
+body, .review {
+  background: #F1E5CE;
 }
 
 nav ul, #franchiseList {
@@ -35,6 +41,9 @@ nav ul, #franchiseList {
 
 nav li {
   display: inline-block;
+}
+
+nav li, .review {
   padding: 10px;
 }
 
@@ -55,16 +64,12 @@ a, a:visited {
   display: none;
 }
 
-main {
-  display: flex;
-}
-
 #icon, .logo {
   display: block;
   margin: auto;
 }
 
-#icon {
+#icon, #back {
   width: 200px;
 }
 
@@ -76,9 +81,12 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  margin: 10px;
   border-radius: 5px;
   background: #FAF7F2;
+}
+
+section, .review {
+  margin: 10px;
 }
 
 .note {
@@ -93,16 +101,9 @@ section {
   text-align: center;
 }
 
-#back {
-  width: 200px;
-}
-
 .review {
-  background: #F1E5CE;
-  padding: 10px;
   border-top: dotted 5px black;
   border-bottom: dotted 5px black;
-  margin: 10px;
 }
 
 .menu {
