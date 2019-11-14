@@ -127,7 +127,7 @@
     let specialty = document.createElement("p");
     specialty.textContent = "Specializes in " + data.specialty;
     let location = document.createElement("p");
-    location.textContent = "Locations in " + data.location;
+    location.textContent = "Locations: " + data.location;
     let review = document.createElement("p");
     review.classList.add("review");
     review.textContent = data.review;
