@@ -15,20 +15,27 @@ const app = express();
 const INVALID_PARAM_ERROR = 400;
 const DEFAULT_PORT = 8000;
 
-// shows list of franchise names and their names as used to navigate API
+/**
+ * returns list of franchise names (full names) and their names as used to
+ * navigate API (short names)
+ */
 app.get("/franchises", async function(req, res) {
   let franchises = await getTxtFile();
   res.set("Content-Type", "text/plain");
   res.send(franchises);
 });
 
-// shows whole franchiseInfo file
+/**
+ * returns whole franchiseInfo JSON (master list of all franchises' information)
+ */
 app.get("/franchiseInfo", async function(req, res) {
   let franchiseInfoAll = await getJsonFile("franchiseInfo");
   res.json(franchiseInfoAll);
 });
 
-// shows info for a specific franchise
+/**
+ * returns JSON of a specific franchise's information
+ */
 app.get("/franchiseInfo/:name", async function(req, res) {
   let franchiseInfo = await getJsonFile("franchiseInfo/" + req.params.name);
   if (franchiseInfo.errno) {
@@ -41,7 +48,9 @@ app.get("/franchiseInfo/:name", async function(req, res) {
 });
 
 /**
- *
+ * Reads franchises.txt file, which consists of a list of all franchises' names.
+ * @return {promise} contents - contents of the .txt file
+ *         or {error} - error message upon inability to read file
  */
 async function getTxtFile() {
   try {
@@ -53,7 +62,9 @@ async function getTxtFile() {
 }
 
 /**
- *
+ * Reads a .json file, which consists of one or all franchises' information.
+ * @return {JSON} contents - contents of the .json file as a JSON object
+ *         or {error} - error message upon inability to read file
  */
 async function getJsonFile(fileName) {
   try {
