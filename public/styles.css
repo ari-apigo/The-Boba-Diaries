@@ -3,7 +3,9 @@
   Date: 2019 November 8
   Section: AA / Chao Hsu Lin & Austin Jenchi
 
-  This is the styles.css file for my
+  This is the styles.css file for my "The Boba Diaries" site. It is used by all pages
+  on the site to create a consistent appearance. In particular, this formats parts of the pages
+  that are heavier on the visuals, such as the sidebars and franchise information.
 */
 
 @import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
@@ -53,6 +55,7 @@ a, a:visited {
 }
 
 #sidebarList {
+  /* This image was created by me. */
   list-style-image: url("/img/bobaresize.png");
 }
 
