@@ -47,7 +47,7 @@
     let alert = document.createElement("p");
     alert.textContent = "Woops! Do you live in a world without boba?? " + error;
     alert.classList.add("alert");
-    display.appendChild(alert);
+    info.appendChild(alert);
   }
 
   /**
@@ -143,4 +143,4 @@
     document.getElementById("info").innerHTML = "";
   }
 
-  })();
+})();
