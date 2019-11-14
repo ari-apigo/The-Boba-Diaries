@@ -40,6 +40,9 @@ app.get("/franchiseInfo/:name", async function(req, res) {
   }
 });
 
+/**
+ *
+ */
 async function getTxtFile() {
   try {
     let contents = await fs.readFile("public/franchises.txt", "utf-8");
@@ -49,6 +52,9 @@ async function getTxtFile() {
   }
 }
 
+/**
+ *
+ */
 async function getJsonFile(fileName) {
   try {
     let contents = await fs.readFile("public/" + fileName + ".json", "utf-8");

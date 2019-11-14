@@ -13,13 +13,16 @@
   window.addEventListener("load", init);
 
   /**
-   *
+   * Loads franchise names from the API onto the page and sets up event-listener on image.
    */
   function init() {
     fillFranchiseList();
     document.getElementById("back").addEventListener("click", toggleList);
   }
 
+  /**
+   *
+   */
   function fillFranchiseList() {
     fetch("/franchises")
       .then(checkStatus)
@@ -42,6 +45,9 @@
     return response;
   }
 
+  /**
+   *
+   */
   function handleError(error) {
     let info = document.getElementById("info");
     let alert = document.createElement("p");
@@ -79,6 +85,9 @@
     return fullnames;
   }
 
+  /**
+   *
+   */
   function displayFranchiseList(fullnames) {
     let franchiseList = document.getElementById("franchiseList");
     for (let i = 0; i < fullnames.length; i++) {
@@ -90,6 +99,9 @@
     }
   }
 
+  /**
+   *
+   */
   function getInfo() {
     let shortname = this.id;
     fetch("/franchiseInfo/" + shortname)
@@ -99,6 +111,9 @@
       .catch(console.error);
   }
 
+  /**
+   *
+   */
   function displayInfo(data) {
     let infoSection = document.getElementById("info");
     document.getElementById("franchiseList").classList.toggle("hidden");
@@ -124,6 +139,9 @@
     displayMenuInfo(data);
   }
 
+  /**
+   *
+   */
   function displayMenuInfo(data) {
     let infoSection = document.getElementById("info");
     let menu = document.createElement("img");
@@ -137,6 +155,9 @@
     infoSection.appendChild(menuCredit);
   }
 
+  /**
+   *
+   */
   function toggleList() {
     document.getElementById("franchiseList").classList.toggle("hidden");
     document.getElementById("back").classList.toggle("hidden");
