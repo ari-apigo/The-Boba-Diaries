@@ -61,9 +61,16 @@ main {
 }
 
 #icon, .logo {
-  width: 200px;
   display: block;
   margin: auto;
+}
+
+#icon {
+  width: 200px;
+}
+
+.logo {
+  width: 40%;
 }
 
 section {

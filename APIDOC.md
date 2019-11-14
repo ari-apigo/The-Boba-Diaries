@@ -34,7 +34,7 @@ N/A
 
 **Returned Data Format**: JSON
 
-**Description:** Return a JSON file including the information of every franchise available in this API
+**Description:** Returns a JSON file including the information of every franchise available in this API
 
 **Example Request:** /franchiseInfo
 
