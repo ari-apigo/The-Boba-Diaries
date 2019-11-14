@@ -21,7 +21,7 @@
   }
 
   /**
-   *
+   * Requests for the franchise names from the API.
    */
   function fillFranchiseList() {
     fetch("/franchises")
@@ -46,7 +46,8 @@
   }
 
   /**
-   *
+   * Shows alert with error details when API request fails.
+   * @param {Response} error - details regarding reason for failed API request
    */
   function handleError(error) {
     let info = document.getElementById("info");
@@ -62,18 +63,14 @@
    * @return {array} each line of text data from API as a string value in an array
    */
   function splitLines(text) {
-    /*
-     * The following section exercise was consulted:
-     * https://courses.cs.washington.edu/courses/cse154/19au/sections/week05-tues/code/solution/ajaxpets/ajaxpets.html
-     */
     return text.split("\n");
   }
 
   /**
-   * Further splits text data from API to separate Pokemons' full names and short names.
-   * Then sorts each into respective global arrays for later use.
+   * Further splits text data from API to separate franchises' full names and short names.
+   * Saves short names in a global array for later use.
    * @param {array} text - each line of text data from API as a string value in an array
-   * @return {array} fullnames - array of strings, the full names of each Pokemon
+   * @return {array} fullnames - array of strings, the full names of each franchise
    */
   function splitNames(text) {
     let fullnames = [];
@@ -86,7 +83,8 @@
   }
 
   /**
-   *
+   * Processes and formats API data (list of franchises) for display on the page.
+   * @param {Response} fullnames - data from API: franchises' full names
    */
   function displayFranchiseList(fullnames) {
     let franchiseList = document.getElementById("franchiseList");
@@ -100,7 +98,7 @@
   }
 
   /**
-   *
+   * Requests for a specific franchise's information from the API.
    */
   function getInfo() {
     let shortname = this.id;
@@ -112,7 +110,8 @@
   }
 
   /**
-   *
+   * Processes and formats API data (specific franchise information) for display on the page.
+   * @param {Response} data - data from API: specific franchise's information
    */
   function displayInfo(data) {
     let infoSection = document.getElementById("info");
@@ -140,7 +139,9 @@
   }
 
   /**
-   *
+   * Processes and formats API data (specific franchise's menu information) for display on
+   * the page.
+   * @param {Response} data - data from API: specific franchise's menu information
    */
   function displayMenuInfo(data) {
     let infoSection = document.getElementById("info");
@@ -156,7 +157,7 @@
   }
 
   /**
-   *
+   * Switches user's view between the franchise list and a specific franchise's information.
    */
   function toggleList() {
     document.getElementById("franchiseList").classList.toggle("hidden");
