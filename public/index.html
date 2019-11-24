@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+  Name: Ariane Apigo
+  Date: 2019 November 8
+  Section: AA / Chao Hsu Lin & Austin Jenchi
+
+  This is the index.html file for my "The Boba Diaries" site, and this serves as a homepage.
+  It features basic information regarding bubble tea and a list of bubble tea franchises that
+  display franchise-specific information when a franchise name is clicked. Franchise information
+  is sourced from The Boba API.
+  The navigation bar at the top of the page offers the user links to the site's other pages.
+  It's been so many CPs and not one about boba?!
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>The Boba Diaries</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Boba Diaries</h1>
+      <nav><ul>
+          <li><a href="#getStarted">Franchises</a></li>
+          <!-- The following site was consulted:
+               https://blog.hubspot.com/marketing/jump-link-same-page -->
+          <li><a href="bobaMe.html">Boba & Me</a></li>
+          <li><a href="theBobaAPI.html">The Boba API</a></li>
+        </ul></nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2>Welcome to The Boba Diaries!</h2>
+          <p> This is my personal documentation of all bubble tea locations I have visited. Reviews
+            are my <em>personal opinion!</em> Otherwise, each location's general information is
+            sourced from <a href="theBobaAPI.html">The Boba API</a>.
+          </p>
+        </article>
+        <article>
+          <h2>What is boba?</h2>
+          <!-- The following site was consulted for information:
+               https://en.wikipedia.org/wiki/Tapioca_balls -->
+          <p>Boba are chewy tapioca pearls. Tapioca is a starch extracted from the cassava root.
+            Tapioca pearls originated as a cheaper alternative to pearl sago in Southeast Asia,
+            where starch-based jelly-like desserts and drinks originated. Tapioca pearls themselves
+            lack flavor and gel easily, so they are often kept in syrups (sugar, honey, etc.) after
+            cooking to enhance flavor and sweetness.
+          </p>
+          <h2>so... Why The Boba Diaries?</h2>
+          <p>Recently, bubble tea's popularity has exploded worldwide. It's a mystery to me as to
+            why it suddenly became extremely popular; I've been enjoying it for as long as I can
+            remember. Throughout high school, my friends called me "The Boba Queen" for
+            <em>always</em> drinking it, for <em>always</em> wanting it, and for knowing
+            <em>everything</em> about it.
+          </p>
+          <p> I could go on, visit <a href="bobaMe.html">Boba & Me</a> for more
+            (my preferences, etc.)!
+          </p>
+        </article>
+        <article>
+          <h2 id="getStarted">Let's Get Started!</h2>
+          <p>Below is an alphabetical list of bubble tea franchises. Click on a franchise name to
+            see what they have to offer! Places I've been to will include specific details.
+          </p>
+          <p class="note">* denotes franchises only available in Japan or outside Washington.</p>
+          <section>
+            <ul id="franchiseList"></ul>
+            <img id="back" class="hidden" src="img/bobaBack.png" alt="Back to list">
+            <!-- This image was created by me. -->
+            <div id="info">
+            </div>
+          </section>
+        </article>
+      </section>
+      <section>
+        <img id="icon" src="img/icon.png" alt="The Boba Diaries">
+        <h2>What is bubble tea?</h2>
+        <!-- The following site was consulted for information:
+             https://en.wikipedia.org/wiki/Bubble_tea -->
+        <p>Bubble tea is a tea-based drink often mixed with other ingredients, such as milk and
+          various toppings. I simply use the word "boba" to refer to a drink with tapioca pearls as
+          a topping.
+        </p>
+        <ul id="sidebarList">
+          <li><strong>Also known as: </strong>Boba, pearl [milk] tea, tapioca [tea]
+            <ul><li>...but never "boba tea." Please don't call it "boba tea."</li></ul></li>
+          <li><strong>Origins: </strong>Taiwan, 1980</li>
+          <li><strong>Main ingredients: </strong>Brewed tea, milk (and substitutes), sugar
+            (optional), ice (optional)</li>
+          <li><strong>Toppings (all optional and vary by franchise): </strong>Pearl, mini pearl,
+            (egg) pudding, aloe vera, red bean, aiyu jelly, herb jelly, lychee jelly, ice cream,
+            and more!</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Café Happy",
+  "specialty": "drinks, snacks",
+  "location": "Kirkland, University District Seattle",
+  "logo": "/logos/cafeHappy.png",
+  "menu": "/menu/cafeHappy.jpg",
+  "menuCredit": "Found on Yelp.com, uploaded by the business owner (Kirkland). Menus differ greatly between locations. The original Kirkland location offers more customization and options than the University District Seattle location.",
+  "review": "Taste-wise, Café Happy's drinks are very generic, but is still a recommendation."
+}

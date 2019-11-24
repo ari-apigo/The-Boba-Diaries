@@ -1,0 +1,9 @@
+{
+  "name": "Trio Café",
+  "specialty": "drinks, desserts",
+  "location": "Bellevue",
+  "logo": "/logos/trioCafe.jpg",
+  "menu": "/menus/trioCafe.jpg",
+  "menuCredit": "Found on Yelp.com, uploaded by Ziyan C.",
+  "review": "Trio Café is a classic teahouse that brews teas and blends drinks with care on the spot; you can watch your drink get made right in front of you."
+}

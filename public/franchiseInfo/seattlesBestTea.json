@@ -1,0 +1,9 @@
+{
+  "name": "Seattle's Best Tea",
+  "specialty": "tea, ice cream",
+  "location": "International District Seattle",
+  "logo": "/logos/seattlesBestTea.jpg",
+  "menu": "/menus/seattlesBestTea.jpg",
+  "menuCredit": "Taken from their website.",
+  "review": "Seattle's Best Tea is focused on selling tea itself, so this is one of the best options to try out if you prefer freshly brewed tea tastes."
+}

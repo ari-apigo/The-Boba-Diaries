@@ -1,0 +1,9 @@
+{
+  "name": "Tea Time",
+  "specialty": "drinks",
+  "location": "Tukwila",
+  "logo": "/logos/teaTime.jpg",
+  "menu": "/menus/teaTime.jpg",
+  "menuCredit": "Taken from their website. Note this is not the full menu, and there are more choices listed on their website.",
+  "review": "Tea Time only offers signature drink flavors. They also offer reusable bottles with purchase of their drinks."
+}

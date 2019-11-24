@@ -1,0 +1,9 @@
+{
+  "name": "Kung Fu Tea",
+  "specialty": "drinks",
+  "location": "International",
+  "logo": "/logos/kungFuTea.png",
+  "menu": "/menus/kungFuTea.jpg",
+  "menuCredit": "Found on Yelp.com, uploaded by business owner of Philadelphia, PA, branch.",
+  "review": "Kung Fu Tea is a classic teahouse, known for their usage of milk substitutes and is therefore popular among lactose intolerant people. However, this can change the taste of the tea quite dramatically and may not fit the preferences of others."
+}

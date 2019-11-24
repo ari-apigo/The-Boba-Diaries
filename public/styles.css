@@ -1,0 +1,114 @@
+/*
+  Name: Ariane Apigo
+  Date: 2019 November 8
+  Section: AA / Chao Hsu Lin & Austin Jenchi
+
+  This is the styles.css file for my "The Boba Diaries" site. It is used by all pages
+  on the site to create a consistent appearance. In particular, this formats parts of the pages
+  that are heavier on the visuals, such as the sidebars and franchise information.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+h1, h2, h3, a {
+  font-family: "Short Stack", cursive;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+header {
+  align-items: baseline;
+}
+
+header, main {
+  display: flex;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+}
+
+body, .review {
+  background: #F1E5CE;
+}
+
+nav ul, #franchiseList {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li, .review {
+  padding: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#sidebarList {
+  /* This image was created by me. */
+  list-style-image: url("/img/bobaresize.png");
+}
+
+#sidebarList li {
+  padding-left: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#icon, .logo {
+  display: block;
+  margin: auto;
+}
+
+#icon, #back {
+  width: 200px;
+}
+
+.logo {
+  width: 40%;
+}
+
+section {
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: #FAF7F2;
+}
+
+section, .review {
+  margin: 10px;
+}
+
+.note {
+  font-size: 10pt;
+}
+
+#franchiseList li {
+  padding-bottom: 5px;
+}
+
+#info {
+  text-align: center;
+}
+
+.review {
+  border-top: dotted 5px black;
+  border-bottom: dotted 5px black;
+}
+
+.menu {
+  width: 100%;
+}

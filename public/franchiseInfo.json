@@ -1,0 +1,335 @@
+{
+  "85C": {
+    "name": "85°C Bakery Cafe",
+    "specialty": "baked goods, coffee, tea",
+    "location": "Washington, California, Texas",
+    "logo": "/logos/85C.png",
+    "menu": "/menus/85C.jpg",
+    "menuCredit": "Taken from their website, dated May 30, 2019.",
+    "review": "Since 85° focuses on baked goods, don't expect the drinks to be amazing. Their drinks are designed to compliment their bakery products, so sweetness is kept at a minimum. They offer two sizes and iced or hot options and often release unique flavors."
+  },
+  "blackBall": {
+    "name": "BlackBall",
+    "specialty": "Taiwanese desserts, drinks",
+    "location": "International (N. America, Asia)",
+    "logo": "/logos/blackBall.png",
+    "menu": "/menus/blackBall.jpg",
+    "menuCredit": "Found on Yelp.com page for San Gabriel, CA, location, uploaded by business owner.",
+    "review": "BlackBall offers unique and traditional drink flavors that complement their dessert options."
+   },
+   "blankSpace": {
+     "name": "Blank Space Cafe",
+     "specialty": "drinks, desserts",
+     "location": "Bellevue, Greenlake, Downtown Seattle",
+     "logo": "/logos/blankSpace.png",
+     "menu": "/menus/blankSpace.png",
+     "menuCredit": "Found on Pinterest.com: saved from Natasha Ulloa.",
+     "review": "Blank Space offers a very wide range of flavors, and while size and temperature are customizable, sweetness is not. As a dessert house, their drinks run very sweet to match. Desserts offered include toast boxes, bubble waffles, ice cream, and macarons."
+   },
+   "bobaUp": {
+     "name": "Boba Up",
+     "specialty": "DIY bubble tea, snacks",
+     "location": "University District Seattle",
+     "logo": "/logos/bobaUp.jpg",
+     "menu": "/menus/bobaUp.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Boba Up is the first self-serve style bubble tea franchise in the area. To accommodate for differences in sweetness preferences, most drinks are very watered down, requiring customers to personally add shots of sugar into their drink (which is quite unsettling). Toppings are buffet-style, but do not seem to be kept chilled or warmed."
+   },
+   "bobachine": {
+     "name": "Bobachine Bubble Tea",
+     "specialty": "bubble tea, food, coffee, ice cream",
+     "location": "Downtown Seattle",
+     "logo": "/logos/bobachine.png",
+     "menu": "/menus/bobachine.jpg",
+     "menuCredit": "Found on Sirved.com.",
+     "review": "Bobachine is a \"fusion\" franchise, not focused on serving the standard Asian perception of bubble tea and its taste. They have one size, no sweetness customization, and tapioca not kept warm after cooking."
+   },
+   "bobalust": {
+     "name": "BobaLust Tea House",
+     "specialty": "drinks",
+     "location": "Tukwila, Tacoma",
+     "logo": "/logos/bobalust.png",
+     "menu": "/menus/bobalust.jpg",
+     "menuCredit": "Posted by BobaLust Graphic Designer Cindy Huynh on chuynhdesign.com.",
+     "review": "BobaLust is a modern teahouse, and their drink sizes are a little smaller, but they win overall for the most original flavors. Some tend to be very sweet, but their unique names and descriptions convince customers to want to come back to try them all. In addition to their regular menu, they have a secret menu that rotates every month."
+   },
+   "braganza": {
+     "name": "Braganza Tea",
+     "specialty": "tea drinks",
+     "location": "Washington, Oregon",
+     "logo": "/logos/braganza.png",
+     "menu": "/menus/braganza.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Jules H.",
+     "review": "Braganza Tea is a Pacific Northwestern born franchise. They offer one drink size and no sweetness customization, but their tea quality is decent."
+   },
+   "cafeHappy": {
+     "name": "Café Happy",
+     "specialty": "drinks, snacks",
+     "location": "Kirkland, University District Seattle",
+     "logo": "/logos/cafeHappy.png",
+     "menu": "/menu/cafeHappy.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by the business owner (Kirkland). Menus differ greatly between locations. The original Kirkland location offers more customization and options than the University District Seattle location.",
+     "review": "Taste-wise, Café Happy's drinks are very generic, but is still a recommendation."
+   },
+   "chatime": {
+     "name": "Chatime",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/chatime.png",
+     "menu": "/menus/chatime.jpg",
+     "menuCredit": "Found on Winnie.com.",
+     "review": "Chatime is a classic teahouse. Drinks at Chatime are very customizable, and they offer a wide range of flavors and types to choose from. As the largest teahouse franchise in the world, Chatime is the safest option when unsure which to go to."
+   },
+   "coco": {
+     "name": "CoCo Fresh Tea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/coco.png",
+     "menu": "/menus/coco.jpg",
+     "menuCredit": "Found on Foursquare.com, uploaded by Karla T.",
+     "review": "CoCo is a classic teahouse, offers customizable drinks and is one of the world's largest teahouse franchises. Their default sweetness tends to be sweeter than most places."
+   },
+   "decora": {
+     "name": "Decora Creamery",
+     "specialty": "desserts",
+     "location": "Odaiba Tokyo - Japan",
+     "logo": "/logos/decora.png",
+     "menu": "/menus/decora.jpg",
+     "menuCredit": "Found on Twitter, posted by iamv @imtaiki.",
+     "review": "Decora is popular for its cotton candy products, but its tapioca is of decent quality. Although more on the jelly-texture side, their tapioca does have a bit chew factor in comparison to other Japanese jelly-tapiocas."
+   },
+   "dingTea": {
+     "name": "Ding Tea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/dingTea.jpg",
+     "menu": "/menus/dingTea.jpg",
+     "menuCredit": "Found on a Facebook post by Ding Tea PDX, July 28, 2018.",
+     "review": "Ding Tea is a classic teahouse and offers customization of their drinks. They are known for their golden and crystal boba, as they set them apart from other franchises."
+   },
+   "gongCha": {
+     "name": "Gong Cha",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/gongCha.png",
+     "menu": "/menus/gongCha.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Gong Cha is a classic teahouse and often releases limited-time specialty drinks. They offer customization of their drinks and are very generous when it comes to toppings. They have no locations in Washington."
+   },
+   "happyLemon": {
+     "name": "Happy Lemon",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/happyLemon.png",
+     "menu": "/menus/happyLemon.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Happy Lemon puts a twist on the classic teahouse and is popular for its rock salt creama topping, unique from other franchises' similar creama toppings. They offer customization of their drinks."
+   },
+   "itea": {
+     "name": "Itea Boba & Dessert",
+     "specialty": "drinks, desserts",
+     "location": "Las Vegas",
+     "logo": "/logos/itea.png",
+     "menu": "/menus/itea.jpg",
+     "menuCredit": "Found on restaurantji.com. Note this is not the full menu.",
+     "review": "Itea's shop gives off lively, adorable vibes. They offer a wide range of flavors and bubble waffles."
+   },
+   "koiThe": {
+     "name": "Koi Thé",
+     "specialty": "drinks",
+     "location": "Asia, New York",
+     "logo": "/logos/koiThe.jpg",
+     "menu": "/menus/koiThe.png",
+     "menuCredit": "Taken from their website.",
+     "review": "Koi Thé is a classic teahouse, slowly growing its international presence. They offer customization of their drinks."
+   },
+   "kungFuTea": {
+     "name": "Kung Fu Tea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/kungFuTea.png",
+     "menu": "/menus/kungFuTea.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by business owner of Philadelphia, PA, branch.",
+     "review": "Kung Fu Tea is a classic teahouse, known for their usage of milk substitutes and is therefore popular among lactose intolerant people. However, this can change the taste of the tea quite dramatically and may not fit the preferences of others."
+   },
+   "meetFresh": {
+     "name": "Meet Fresh",
+     "specialty": "Taiwanese desserts, tea",
+     "location": "International",
+     "logo": "/logos/meetFresh.png",
+     "menu": "/menus/meetFresh.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Although focused on serving Taiwanese desserts, Meet Fresh offers a decent variety of drinks to choose from. They have traditional flavors that go well with the desserts available."
+   },
+   "momiToys": {
+     "name": "Momi & Toys Crêperie",
+     "specialty": "crepes, drinks",
+     "location": "Japan, Indonesia",
+     "logo": "/logos/momiToys.jpg",
+     "menu": "/menus/momiToys.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Erin K.",
+     "review": "Momi & Toys does not specialize in tapioca drinks but nevertheless offers them in a wide variety of flavors (you can even order Coca-Cola with tapioca) with jelly-like tapioca pearls."
+   },
+   "moomin": {
+     "name": "Moomin Stand",
+     "specialty": "drinks, snacks, merchandise",
+     "location": "Japan",
+     "logo": "/logos/moomin.jpg",
+     "menu": "/menus/moomin.jpg",
+     "menuCredit": "Found on Pinterest.com, sourced from sparklesideup.blogspot.ie. Note that this is not the full menu.",
+     "review": "Moomin Stand offers a wide variety of flavors with perfectly chewy tapioca pearls. The shop's theme takes after the Swedish animated show, The Moomins."
+   },
+   "oasis": {
+     "name": "Oasis Tea Zone",
+     "specialty": "drinks, snacks",
+     "location": "Washington",
+     "logo": "/logos/oasis.png",
+     "menu": "/menus/oasis.jpg",
+     "menuCredit": "Found on Zomato.com, physically collected from the restaurant.",
+     "review": "Oasis offers a very wide variety of drink types and flavors and have a sweeter taste. Larger locations are known as midnight hang-out spots."
+   },
+   "overTheRainbow": {
+     "name": "Over The Rainbow Tea Bar",
+     "specialty": "drinks, bubble waffles",
+     "location": "Washington",
+     "logo": "/logos/overTheRainbow.png",
+     "menu": "/menus/overTheRainbow.jpg",
+     "menuCredit": "Taken from their website. Note this is not the full menu, and there are more choices listed on their website.",
+     "review": "Over The Rainbow is a classic teahouse with a wide variety of flavors to capture a larger audience."
+   },
+   "pochi": {
+     "name": "Pochi Bubble Tea Cafe",
+     "specialty": "drinks, snacks",
+     "location": "Lynnwood",
+     "logo": "/logos/pochi.png",
+     "menu": "/menus/pochi.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Cindy L.",
+     "review": "Pochi offers a wide variety of flavors and releases original flavors every once in a while."
+   },
+   "pronto": {
+     "name": "Pronto Caffé & Bar",
+     "specialty": "coffee, drinks, food",
+     "location": "Japan",
+     "logo": "/logos/pronto.jpg",
+     "menu": "/menus/pronto.jpg",
+     "menuCredit": "Found on jcfoodreviews.blogspot.com, posted by Jesse.",
+     "review": "Pronto's tapioca was more on the jelly-like side, but they use real fruits for fruit flavors and fresh brewed tea."
+   },
+   "royaltea": {
+     "name": "Royaltea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/royaltea.jpg",
+     "menu": "/menus/royaltea.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Royaltea is a classic teahouse and has a very unique flavoring to their mousse topping drinks."
+   },
+   "seattlesBestTea": {
+     "name": "Seattle's Best Tea",
+     "specialty": "tea, ice cream",
+     "location": "International District Seattle",
+     "logo": "/logos/seattlesBestTea.jpg",
+     "menu": "/menus/seattlesBestTea.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Seattle's Best Tea is focused on selling tea itself, so this is one of the best options to try out if you prefer freshly brewed tea tastes."
+   },
+   "shakeIt": {
+     "name": "Shake It",
+     "specialty": "drinks, desserts",
+     "location": "Kirkland",
+     "logo": "/logos/shakeIt.jpg",
+     "menu": "/menus/shakeIt.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Shake It's drinks are decent, but the tea and tapioca quality are not as authentic. Their dessert menu is more worth the visit."
+   },
+   "sharetea": {
+     "name": "Sharetea",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/sharetea.jpg",
+     "menu": "/menus/sharetea.jpg",
+     "menuCredit": "Taken from their website.",
+     "review": "Sharetea is a classic teahouse that is constantly growing its already-large international business. They are known for their quality tea and have recently changed their menu to expand availability of their creama topping on drinks."
+   },
+   "shonpy": {
+     "name": "Shonpy",
+     "specialty": "drinks",
+     "location": "Japan",
+     "logo": "/logos/shonpy.jpg",
+     "menu": "/menus/shonpy.jpg",
+     "menuCredit": "Found on tokyo-cafeblog.com.",
+     "review": "Shonpy is a small tea stand in Harajuku, Tokyo, famous for their cute bottles. Their tea and tapioca are good quality, but be sure to drink soon after purchasing, as the bottle can add a plastic taste to the tea after sitting for a while."
+   },
+   "tapiocaExpress": {
+     "name": "Tapioca Express",
+     "specialty": "drinks, snacks, food",
+     "location": "USA",
+     "logo": "/logos/tapiocaExpress.png",
+     "menu": "/menus/tapiocaExpress.jpg",
+     "menuCredit": "Taken from their website. Note this is not the full menu, and there are more choices listed on their website.",
+     "review": "Tapioca Express is offers a wide variety of drink types and flavors. Their tea quality is unique among other franchises, and they do not offer drink customization."
+   },
+   "teaTime": {
+     "name": "Tea Time",
+     "specialty": "drinks",
+     "location": "Tukwila",
+     "logo": "/logos/teaTime.jpg",
+     "menu": "/menus/teaTime.jpg",
+     "menuCredit": "Taken from their website. Note this is not the full menu, and there are more choices listed on their website.",
+     "review": "Tea Time only offers signature drink flavors. They also offer reusable bottles with purchase of their drinks."
+   },
+   "thankYouPearl": {
+     "name": "謝謝珍珠 (\"Thank You Pearl\")",
+     "specialty": "drinks",
+     "location": "Japan",
+     "logo": "/logos/thankYouPearl.jpg",
+     "menu": "/menus/thankYouPearl.jpg",
+     "menuCredit": "Found on taiwanfranchise.org.",
+     "review": "Thank You Pearl is known for their Kiwami Brown Sugar drinks, which are perfect for those looking for a sweet drink."
+   },
+   "theAlley": {
+     "name": "The Alley",
+     "specialty": "drinks",
+     "location": "International",
+     "logo": "/logos/theAlley.png",
+     "menu": "/menus/theAlley.jpg",
+     "menuCredit": "Taken from their Melbourne Facebook page.",
+     "review": "The Alley is a classic teahouse that is well-known world-wide for its Brown Sugar Deerioca drinks. They also have a number of other drinks popular for their visual appeal as well as taste."
+   },
+   "tokiSeven": {
+     "name": "TOKI SEVEN TEA",
+     "specialty": "drinks",
+     "location": "Japan",
+     "logo": "/logos/tokiSeven.png",
+     "menu": "/menus/tokiSeven.jpg",
+     "menuCredit": "Taken from their website. Note the typo; \"Fresh Strawberry Foam\".",
+     "review": "Toki Seven Tea is a classic teahouse, known for their freshly brewed teas. They offer drink customization and have also recently released a new \"mega\" drink size, which is a full liter."
+   },
+   "trioCafe": {
+     "name": "Trio Café",
+     "specialty": "drinks, desserts",
+     "location": "Bellevue",
+     "logo": "/logos/trioCafe.jpg",
+     "menu": "/menus/trioCafe.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Ziyan C.",
+     "review": "Trio Café is a classic teahouse that brews teas and blends drinks with care on the spot; you can watch your drink get made right in front of you."
+   },
+   "tutu": {
+     "name": "Tutu Crepes & Tapioca",
+     "specialty": "crepes, bubble tea",
+     "location": "Japan",
+     "logo": "/logos/tutu.png",
+     "menu": "/menus/tutu.png",
+     "menuCredit": "Taken from their website.",
+     "review": "Tutu's offers a wide range of flavors using different bases for their drinks, from milk tea to black tea to Calpis, a Japanese soft drink."
+   },
+   "youngTea": {
+     "name": "Young Tea",
+     "specialty": "tea, drinks",
+     "location": "Washington",
+     "logo": "/logos/youngTea.jpg",
+     "menu": "/menus/youngTea.jpg",
+     "menuCredit": "Found on Yelp.com, uploaded by Jobie H.",
+     "review": "Young Tea is a classic teahouse known for freshly brewed teas. They advocate for a healthier environment and offer drink customization."
+   }
+ }
