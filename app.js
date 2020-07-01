@@ -1,7 +1,6 @@
 /*
  *  Name: Ariane Apigo
  *  Date: 2019 November 8
- *  Section: AA / Chao Hsu Lin & Austin Jenchi
  *
  *  This is the app.js file for my "The Boba Diaries" site. It acts as the server containing The
  *  Boba API and returns its information per the user's valid requests.

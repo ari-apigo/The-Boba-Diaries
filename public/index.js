@@ -1,7 +1,6 @@
 /*
  *  Name: Ariane Apigo
  *  Date: 2019 November 8
- *  Section: AA / Chao Hsu Lin & Austin Jenchi
  *
  *  This is the index.js file for my "The Boba Diaries" site. It fetches information from The
  *  Boba API and manipulates index.html's DOM to display this information on the page.
